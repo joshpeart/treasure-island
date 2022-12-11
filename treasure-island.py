@@ -1,5 +1,8 @@
 import os
 
+#Function is written for Windows.  Comment if running Linux
+#os.system('cls')
+#Function is written for Linux or MacOS.  Comment it if running Windows
 os.system('clear')
 
 print('''
@@ -27,11 +30,17 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 input("Press 'Enter' to Continue")
+
 #https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
 
 #Write your code below this line 👇
+#Function is written for Windows.  Comment if running Linux
+#os.system('cls')
+#Function is written for Linux or MacOS.  Comment it if running Windows
 os.system('clear')
+
 print("You are walking along the island on a very sunny hot day.")
+
 direction=input("You have arrived at a fork in the road.  Which direction should you travel?  Type 'Left' to turn left.  Type 'Right' to turn right: ").lower()
 
 os.system('clear')
@@ -54,7 +63,12 @@ if direction == "left":
   ""'                    :  \\|\ X XX///`      :|   :    |   :      : |   |
 ''')
     action=input("You find a walking path along a river and eventually see a beautiful waterfall.  This is where you are to be meeting your fellow adventurer 'Chip Baskets' but he is not here yet.  Its quite hot outside today. What do you want to do?  Type 'Wait' to remain where you are until he arrives or type 'Swim' to take a dip in the water: ").lower
+    
+    #Function is written for Windows.  Comment if running Linux
+    #os.system('cls')
+    #Function is written for Linux or MacOS.  Comment it if running Windows
     os.system('clear')
+    
     if action == "wait":
         transition=input("You take a short nap and awake to your friend 'Chip' arriving.  He tells you that the treasure is up a little further along the river.  The two of you journey on.  Press 'Enter' to continue")
         door=input("You and Chip come across a castle that has 3 doors.  Chip says that behind one of these doors is the treasure and behind the other two is the fate of death.  Which door shall you open?  Type 'Red' for the red door, type 'Blue' for the blue door, or type 'Yellow' for the yellow door").lower()
